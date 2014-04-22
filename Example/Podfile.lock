@@ -1,0 +1,14 @@
+PODS:
+  - AsyncCollections (0.1.0)
+
+DEPENDENCIES:
+  - AsyncCollections (from `../AsyncCollections.podspec`)
+
+EXTERNAL SOURCES:
+  AsyncCollections:
+    :path: ../AsyncCollections.podspec
+
+SPEC CHECKSUMS:
+  AsyncCollections: 8acdebeb64a7af8d7f44022ce30107ffe267de2d
+
+COCOAPODS: 0.32.1
