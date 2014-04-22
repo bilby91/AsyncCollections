@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "AsyncCollections"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "Enables asyncronous drawing for your collections."
   s.description      = <<-DESC
                         AsyncCollections enables asyncronous drawing for UITableView's and UICollectionView's. 
