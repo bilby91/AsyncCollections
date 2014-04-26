@@ -2,6 +2,7 @@
 
 [![Version](http://cocoapod-badges.herokuapp.com/v/AsyncCollections/badge.png)](http://cocoadocs.org/docsets/AsyncCollections)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/AsyncCollections/badge.png)](http://cocoadocs.org/docsets/AsyncCollections)
+[![Build Status](https://travis-ci.org/bilby91/AsyncCollections.svg)](https://travis-ci.org/bilby91/AsyncCollections)
 
 **AsyncCollections** helps you out rendering a bitmap with CoreGraphics for your collection/table view cells in the background.
 
