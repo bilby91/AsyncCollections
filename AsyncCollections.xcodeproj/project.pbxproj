@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7BF023D190B53B40045B09B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7BF023C190B53B40045B09B /* Foundation.framework */; };
+		D7BF027D190B54780045B09B /* LVAsyncCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BF0275190B54780045B09B /* LVAsyncCollectionViewController.m */; };
+		D7BF027E190B54780045B09B /* LVAsyncRenderCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BF0278190B54780045B09B /* LVAsyncRenderCollectionCell.m */; };
+		D7BF027F190B54780045B09B /* LVAsyncRenderTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BF027A190B54780045B09B /* LVAsyncRenderTableCell.m */; };
+		D7BF0280190B54780045B09B /* LVAsyncTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BF027C190B54780045B09B /* LVAsyncTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7BF0237190B53B40045B09B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D7BF0239190B53B40045B09B /* libAsyncCollections.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAsyncCollections.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7BF023C190B53B40045B09B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D7BF024A190B53B40045B09B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D7BF024D190B53B40045B09B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D7BF0273190B54780045B09B /* AsyncCollections-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AsyncCollections-Prefix.pch"; sourceTree = "<group>"; };
+		D7BF0274190B54780045B09B /* LVAsyncCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVAsyncCollectionViewController.h; sourceTree = "<group>"; };
+		D7BF0275190B54780045B09B /* LVAsyncCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVAsyncCollectionViewController.m; sourceTree = "<group>"; };
+		D7BF0276190B54780045B09B /* LVAsyncRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVAsyncRender.h; sourceTree = "<group>"; };
+		D7BF0277190B54780045B09B /* LVAsyncRenderCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVAsyncRenderCollectionCell.h; sourceTree = "<group>"; };
+		D7BF0278190B54780045B09B /* LVAsyncRenderCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVAsyncRenderCollectionCell.m; sourceTree = "<group>"; };
+		D7BF0279190B54780045B09B /* LVAsyncRenderTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVAsyncRenderTableCell.h; sourceTree = "<group>"; };
+		D7BF027A190B54780045B09B /* LVAsyncRenderTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVAsyncRenderTableCell.m; sourceTree = "<group>"; };
+		D7BF027B190B54780045B09B /* LVAsyncTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVAsyncTableViewController.h; sourceTree = "<group>"; };
+		D7BF027C190B54780045B09B /* LVAsyncTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVAsyncTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7BF0236190B53B40045B09B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BF023D190B53B40045B09B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7BF0230190B53B40045B09B = {
+			isa = PBXGroup;
+			children = (
+				D7BF0272190B54780045B09B /* Classes */,
+				D7BF023B190B53B40045B09B /* Frameworks */,
+				D7BF023A190B53B40045B09B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7BF023A190B53B40045B09B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7BF0239190B53B40045B09B /* libAsyncCollections.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7BF023B190B53B40045B09B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7BF023C190B53B40045B09B /* Foundation.framework */,
+				D7BF024A190B53B40045B09B /* XCTest.framework */,
+				D7BF024D190B53B40045B09B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7BF0272190B54780045B09B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D7BF0273190B54780045B09B /* AsyncCollections-Prefix.pch */,
+				D7BF0274190B54780045B09B /* LVAsyncCollectionViewController.h */,
+				D7BF0275190B54780045B09B /* LVAsyncCollectionViewController.m */,
+				D7BF0276190B54780045B09B /* LVAsyncRender.h */,
+				D7BF0277190B54780045B09B /* LVAsyncRenderCollectionCell.h */,
+				D7BF0278190B54780045B09B /* LVAsyncRenderCollectionCell.m */,
+				D7BF0279190B54780045B09B /* LVAsyncRenderTableCell.h */,
+				D7BF027A190B54780045B09B /* LVAsyncRenderTableCell.m */,
+				D7BF027B190B54780045B09B /* LVAsyncTableViewController.h */,
+				D7BF027C190B54780045B09B /* LVAsyncTableViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7BF0238190B53B40045B09B /* AsyncCollections */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7BF025C190B53B40045B09B /* Build configuration list for PBXNativeTarget "AsyncCollections" */;
+			buildPhases = (
+				D7BF0235190B53B40045B09B /* Sources */,
+				D7BF0236190B53B40045B09B /* Frameworks */,
+				D7BF0237190B53B40045B09B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsyncCollections;
+			productName = AsyncCollections;
+			productReference = D7BF0239190B53B40045B09B /* libAsyncCollections.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7BF0231190B53B40045B09B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = D7BF0234190B53B40045B09B /* Build configuration list for PBXProject "AsyncCollections" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D7BF0230190B53B40045B09B;
+			productRefGroup = D7BF023A190B53B40045B09B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7BF0238190B53B40045B09B /* AsyncCollections */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7BF0235190B53B40045B09B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BF027E190B54780045B09B /* LVAsyncRenderCollectionCell.m in Sources */,
+				D7BF027D190B54780045B09B /* LVAsyncCollectionViewController.m in Sources */,
+				D7BF0280190B54780045B09B /* LVAsyncTableViewController.m in Sources */,
+				D7BF027F190B54780045B09B /* LVAsyncRenderTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D7BF025A190B53B40045B09B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7BF025B190B53B40045B09B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7BF025D190B53B40045B09B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AsyncCollections.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Classes/AsyncCollections-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D7BF025E190B53B40045B09B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AsyncCollections.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Classes/AsyncCollections-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7BF0234190B53B40045B09B /* Build configuration list for PBXProject "AsyncCollections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BF025A190B53B40045B09B /* Debug */,
+				D7BF025B190B53B40045B09B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7BF025C190B53B40045B09B /* Build configuration list for PBXNativeTarget "AsyncCollections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BF025D190B53B40045B09B /* Debug */,
+				D7BF025E190B53B40045B09B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7BF0231190B53B40045B09B /* Project object */;
+}
