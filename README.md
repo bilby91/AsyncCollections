@@ -1,4 +1,5 @@
 # AsyncCollections
+[![Twitter](https://img.shields.io/badge/contact-@bilby91-green.svg)](http://twitter.com/bilby91)
 [![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)]()
 [![Version](http://cocoapod-badges.herokuapp.com/v/AsyncCollections/badge.png)](http://cocoadocs.org/docsets/AsyncCollections)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/AsyncCollections/badge.png)](http://cocoadocs.org/docsets/AsyncCollections)
